@@ -5,7 +5,7 @@ import com.josenildo.conference.model.Speaker;
 import java.util.ArrayList;
 import java.util.List;
 
-public class HibernateSpeakerRepository implements SpeakerRepository {
+public class HibernateSpeakerRepositoryImpl implements SpeakerRepository {
 
     @Override
     public List<Speaker> findAll() {
