@@ -1,6 +1,6 @@
-package com.josenildo.conference.repository;
+package com.josenildo.conference.com.josenildo.conference.repository;
 
-import com.josenildo.conference.model.Speaker;
+import com.josenildo.conference.com.josenildo.conference.model.Speaker;
 
 import java.util.ArrayList;
 import java.util.List;

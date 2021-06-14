@@ -1,4 +1,4 @@
-package com.josenildo.conference.model;
+package com.josenildo.conference.com.josenildo.conference.model;
 
 public class Speaker {
 

@@ -1,8 +1,8 @@
 package com.josenildo.conference.com.josenildo.conference.service;
 
-import com.josenildo.conference.model.Speaker;
-import com.josenildo.conference.repository.HibernateSpeakerRepositoryImpl;
-import com.josenildo.conference.repository.SpeakerRepository;
+import com.josenildo.conference.com.josenildo.conference.model.Speaker;
+import com.josenildo.conference.com.josenildo.conference.repository.HibernateSpeakerRepositoryImpl;
+import com.josenildo.conference.com.josenildo.conference.repository.SpeakerRepository;
 
 import java.util.*;
 

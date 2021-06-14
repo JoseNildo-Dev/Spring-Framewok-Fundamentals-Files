@@ -1,4 +1,4 @@
-package com.josenildo.conference;
+package com.josenildo.conference.com.josenildo.conference;
 
 import com.josenildo.conference.com.josenildo.conference.service.SpeakerService;
 import com.josenildo.conference.com.josenildo.conference.service.SpeakerServiceImpl;
