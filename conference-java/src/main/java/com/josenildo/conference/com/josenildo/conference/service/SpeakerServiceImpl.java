@@ -10,6 +10,11 @@ public class SpeakerServiceImpl implements SpeakerService {
 
     private SpeakerRepository repository;
 
+    //Construtor injection
+    public SpeakerServiceImpl(SpeakerRepository speakerRepository) {
+        repository = speakerRepository;
+    }
+
     @Override
     public List<Speaker> findAll() {
         return repository.findAll();
