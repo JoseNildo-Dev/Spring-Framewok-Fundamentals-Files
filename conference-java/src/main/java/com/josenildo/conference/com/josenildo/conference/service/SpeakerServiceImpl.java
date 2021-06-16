@@ -4,9 +4,11 @@ import com.josenildo.conference.com.josenildo.conference.model.Speaker;
 import com.josenildo.conference.com.josenildo.conference.repository.HibernateSpeakerRepositoryImpl;
 import com.josenildo.conference.com.josenildo.conference.repository.SpeakerRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.*;
 
+@Service("speakerService")
 public class SpeakerServiceImpl implements SpeakerService {
 
     private SpeakerRepository repository;
